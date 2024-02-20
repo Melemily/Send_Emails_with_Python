@@ -2,9 +2,9 @@ from email.message import EmailMessage
 import ssl
 import smtplib
 
-email_sender = "melphil.business@gmail.com" # use email you'd like to send the message from.
+email_sender = "your.email@provider.com" # use email you'd like to send the message from.
 email_password = "" #Insert 16-digit App password code found in 2-step verification section of Gmail. Redacted for security purposes. 
-email_receiver = "ikebukuro.blonde@gmail.com" # use email you'd like to send message to.
+email_receiver = "your.email@provider.com" # use email you'd like to send message to.
 
 subject = "insert subject here"
 body = """
